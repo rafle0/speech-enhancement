@@ -43,7 +43,7 @@ class DCCRN(nn.Module):
                     ComplexConv2d(
                         self.kernel_num[idx],
                         self.kernel_num[idx + 1],
-                        kernel_size=(self.kernel_size, 2),
+                        kernel_size=(self.kernel_size, 1),
                         stride=(2, 1),
                         padding=(2, 1)
                     ),
@@ -82,7 +82,7 @@ class DCCRN(nn.Module):
                         ComplexConvTranspose2d(
                             self.kernel_num[idx] * 2,
                             self.kernel_num[idx - 1],
-                            kernel_size=(self.kernel_size, 2),
+                            kernel_size=(self.kernel_size, 1),
                             stride=(2, 1),
                             padding=(2, 0),
                             output_padding=(1, 0)
