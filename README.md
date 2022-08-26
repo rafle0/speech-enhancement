@@ -13,7 +13,11 @@ smallmodel.py : causal version of dccrn
 
 ## Data Licences
 
-All datasets are obtained from https://github.com/microsoft/DNS-Challenge/tree/interspeech2020/master 
+I will add LICENSE file as soon as possible.  
+
+All train datasets are obtained from https://github.com/microsoft/DNS-Challenge/tree/interspeech2020/master   
+Four test datasets are recorded by me.   
+  
 
 The datasets used in this project are licensed as follows:
 
